@@ -5,4 +5,5 @@ dbname=df75f270n27ora
 user=fcnbattpefrzkk
 password=IOmHkF56eiNrtd9T0hsOmPC1Q5";
 pg_connect($con_string) or die('Conexão falhou!');
-echo "Conectado no Postgres com sucesso!";
+echo "Foi Conectado no Postgres com sucesso!";
+echo "E o deploy foi integrado no Heroku";
